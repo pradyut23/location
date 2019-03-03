@@ -33,9 +33,9 @@ if not js or 'status' not in js or js['status'] != 'OK':
 
 location = id = js["results"][0]["formatted_address"]
 lat = id = js["results"][0]["geometry"]["location"]["lat"]
-long = id = js["results"][0]["geometry"]["location"]["lng"]
+lng = id = js["results"][0]["geometry"]["location"]["lng"]
 print("")
 print("Full Address with Latitude and Longitude:-")
 print(location)
 print("Latitude:",lat)
-print("Longitude:",long)
+print("Longitude:",lng)
